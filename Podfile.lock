@@ -1,72 +1,62 @@
 PODS:
-  - Alamofire (4.7.3)
-  - AlamofireObjectMapper (5.2.0):
-    - Alamofire (~> 4.7)
-    - ObjectMapper (~> 3.4)
-  - M13Checkbox (3.2.2)
-  - Material (3.0.0):
-    - Material/Core (= 3.0.0)
-  - Material/Core (3.0.0):
-    - Motion (~> 2.0.0)
-  - Motion (2.0.0):
-    - Motion/Core (= 2.0.0)
-  - Motion/Core (2.0.0)
-  - NVActivityIndicatorView (4.6.1):
-    - NVActivityIndicatorView/Presenter (= 4.6.1)
-  - NVActivityIndicatorView/Presenter (4.6.1)
-  - ObjectMapper (3.4.2)
-  - SwiftLint (0.31.0)
+  - Alamofire (5.2.2)
+  - AlamofireObjectMapper (6.3.0):
+    - Alamofire (~> 5.2.2)
+    - ObjectMapper (~> 4.2.0)
+  - M13Checkbox (3.4.0)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - NVActivityIndicatorView (5.0.1):
+    - NVActivityIndicatorView/Base (= 5.0.1)
+  - NVActivityIndicatorView/Base (5.0.1)
+  - ObjectMapper (4.2.0)
+  - SwiftLint (0.40.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.7)
-  - AlamofireObjectMapper (~> 5.2)
-  - M13Checkbox (from `https://github.com/Marxon13/M13Checkbox.git`, branch `swift_4_2`)
-  - Material (from `https://github.com/CosmicMind/Material.git`, branch `development`)
-  - Motion (from `https://github.com/CosmicMind/Motion.git`, branch `development`)
+  - Alamofire
+  - AlamofireObjectMapper (from `https://github.com/T-Pro/AlamofireObjectMapper.git`, branch `master`)
+  - M13Checkbox
+  - Material
+  - Motion
   - NVActivityIndicatorView
-  - ObjectMapper (~> 3.4)
+  - ObjectMapper
   - SwiftLint
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
-    - AlamofireObjectMapper
+    - M13Checkbox
+    - Material
+    - Motion
     - NVActivityIndicatorView
     - ObjectMapper
     - SwiftLint
 
 EXTERNAL SOURCES:
-  M13Checkbox:
-    :branch: swift_4_2
-    :git: https://github.com/Marxon13/M13Checkbox.git
-  Material:
-    :branch: development
-    :git: https://github.com/CosmicMind/Material.git
-  Motion:
-    :branch: development
-    :git: https://github.com/CosmicMind/Motion.git
+  AlamofireObjectMapper:
+    :branch: master
+    :git: https://github.com/T-Pro/AlamofireObjectMapper.git
 
 CHECKOUT OPTIONS:
-  M13Checkbox:
-    :commit: c26efb918e40ae4662dc6659b60f7c5493e94807
-    :git: https://github.com/Marxon13/M13Checkbox.git
-  Material:
-    :commit: 9834fd53b07be0dfa3cfcc9e163307c384fdcdf5
-    :git: https://github.com/CosmicMind/Material.git
-  Motion:
-    :commit: 7ef51741d640a4b0776bbac75a3572fd38b22b93
-    :git: https://github.com/CosmicMind/Motion.git
+  AlamofireObjectMapper:
+    :commit: 11bde54ecdae5f786c507b4fec1ad0001bb2600c
+    :git: https://github.com/T-Pro/AlamofireObjectMapper.git
 
 SPEC CHECKSUMS:
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
-  M13Checkbox: 82182615a76646475b451ebe448a998f77f8cc6e
-  Material: 2b34ad176b7b7f4304f67f2135b91880783dfa10
-  Motion: 22d4a1fa76b12d7d706c6b1d1e0a33784a28c012
-  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
-  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
-  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireObjectMapper: 9802001b42a60e2365c411073828e89c6d28ccf8
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  NVActivityIndicatorView: 738e843cb8924e9e4fc3e559d0728031624bf860
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SwiftLint: 4154893c73a4c52d6240195507eb7a3e3c64087e
 
-PODFILE CHECKSUM: 365cb61113528df1a40b57d24476ce4432bbe17d
+PODFILE CHECKSUM: 8a9dc98d7b99daed6593aa96fc99406d2e2e9065
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.3

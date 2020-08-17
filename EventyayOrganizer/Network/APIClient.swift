@@ -28,7 +28,7 @@ class APIClient {
             return
         }
 
-        Alamofire.request(url).responseObject { (response: DataResponse<T>) in
+        AF.request(url).responseObject { (response: AFDataResponse<T>) in
             if response.error != nil {
                 completion(response.response, nil, response.error)
             } else {
@@ -54,7 +54,7 @@ class APIClient {
                 urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
             }
             urlRequest.httpBody = data
-            Alamofire.request(urlRequest).responseObject { (response: DataResponse<T>) in
+            AF.request(urlRequest).responseObject { (response: AFDataResponse<T>) in
                 if response.error != nil {
                     completion(response.response, nil, response.error)
                 } else {
